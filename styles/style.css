@@ -1,3 +1,16 @@
+:root {
+  --color-fondo-principal: #f2f2f2;
+  --color-fondo-secundario: #1f1f1f;
+  --color-enlaces-formas: #2F80ED;
+  --color-negro: #000;
+}
+div,
+img,
+h1,
+h4{
+  border: 1px dashed red;
+}
+
 .page {
   min-width: 1100px;
   /* we don't know how to make mobile versions of websites yet, */
@@ -14,7 +27,67 @@
   min-height: 600px;
   max-height: 756px;
   /* parameters for the header section */
+  border: 1px dashed red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
+.logo {
+  width: 154px;
+  height: 31px;
+  position: absolute;
+  z-index: 3;
+  margin-left: 64px;
+  top: 30px;
+}
+.logo_place_header {
+}
+.header_title {
+  width: 730px;
+  line-height: 96px;
+  z-index: 3;
+  position: absolute;
+  margin-left: 67px;
+  font-size: 102px;
+  text-transform: bold;
+}
+.header_subtitle {
+  width: 388px;
+  left: 67px;
+  bottom: 30px;
+  position: absolute;
+  z-index: 4;
+  line-height: 25px;
+  font-size: 18px;
+  text-transform: bold;
+}
+.header__link {}
+
+.header_main-illustration {
+  display: flex;
+  width: 756px;
+  height: 608px;
+  position:absolute;
+  right: 10px;
+  bottom: 0;
+  z-index: 2;
+}
+.header__square {
+  width: 568px;
+  height: 568px;
+  top:  64px;
+  right: 0;
+  position:absolute;
+  z-index: 0;
+  background-color: #2F80ED;
+}
+
+.content {}
+.description {}
+.digits {}
+.feynman {}
+.kaufman {}
+.footer {}
 
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
 .header__square-pic {
