@@ -4,10 +4,14 @@
   --color-enlaces-formas: #2F80ED;
   --color-negro: #000;
 }
+
+/*Se crean unos bordes para poder ubicar los bloques, por cuetiones de comidida, 
+se quitarán una vez se termine el proyecto */
 div,
 img,
 h1,
-h4{
+h4,
+p{
   border: 1px dashed red;
 }
 
@@ -31,6 +35,7 @@ h4{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  background-color: var(--color-fondo-principal);
 }
 .logo {
   width: 154px;
@@ -59,7 +64,7 @@ h4{
   z-index: 4;
   line-height: 25px;
   font-size: 18px;
-  text-transform: bold;
+  text-transform: normal;
 }
 .header__link {}
 
@@ -82,8 +87,46 @@ h4{
   background-color: #2F80ED;
 }
 
-.content {}
-.description {}
+.content {
+  display: flex;
+  justify-content: center;
+}
+
+.description {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 80%; 
+  min-width: 784px;
+}
+
+.two-columns {
+  display: flex;
+}
+
+.two-columns_brief {
+  margin-right: 42px;
+  line-height: 1.2;
+  font-size: 18px;
+  text-transform: normal;
+  color: var(--color-enlaces-formas);
+  width: -webkit-fill-available;
+}
+.two-columns_main-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+.two-columns_paragraph {
+  line-height: 34px;
+  font-size: 24px;
+  text-transform: normal;
+}
+.two-columns_span-accent {
+  line-height: 34px;
+  font-size: 24px;
+  text-transform: normal;
+}
+
 .digits {}
 .feynman {}
 .kaufman {}
