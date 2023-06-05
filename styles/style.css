@@ -4,16 +4,33 @@
   --color-enlaces-formas: #2F80ED;
   --color-negro: #000;
 }
-
+ul {
+  list-style: none;
+}
 /*Se crean unos bordes para poder ubicar los bloques, por cuetiones de comidida, 
 se quitarán una vez se termine el proyecto */
+
+/*
 div,
 img,
 h1,
 h4,
-p{
+p,
+h2,
+ul,
+li,
+tr,
+th,
+td,
+.feynman,
+image{
   border: 1px dashed red;
 }
+table {
+  border: 1px solid black;
+}
+*/
+
 
 .page {
   min-width: 1100px;
@@ -36,6 +53,7 @@ p{
   flex-direction: column;
   justify-content: space-around;
   background-color: var(--color-fondo-principal);
+  position:relative;
 }
 .logo {
   width: 154px;
@@ -45,8 +63,8 @@ p{
   margin-left: 64px;
   top: 30px;
 }
-.logo_place_header {
-}
+.logo_place_header {}
+
 .header_title {
   width: 730px;
   line-height: 96px;
@@ -54,7 +72,7 @@ p{
   position: absolute;
   margin-left: 67px;
   font-size: 102px;
-  text-transform: bold;
+  font-weight: bold;
 }
 .header_subtitle {
   width: 388px;
@@ -64,9 +82,11 @@ p{
   z-index: 4;
   line-height: 25px;
   font-size: 18px;
-  text-transform: normal;
+  font-weight: normal;
 }
-.header__link {}
+.header__link {
+  color: var(--color-enlaces-formas);
+}
 
 .header_main-illustration {
   display: flex;
@@ -90,6 +110,7 @@ p{
 .content {
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
 
 .description {
@@ -97,6 +118,8 @@ p{
   margin-bottom: 100px;
   width: 80%; 
   min-width: 784px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .two-columns {
@@ -107,7 +130,7 @@ p{
   margin-right: 42px;
   line-height: 1.2;
   font-size: 18px;
-  text-transform: normal;
+  font-weight: normal;
   color: var(--color-enlaces-formas);
   width: -webkit-fill-available;
 }
@@ -115,21 +138,184 @@ p{
   display: flex;
   flex-direction: column;
   margin-left: 50px;
+  justify-content: space-between;
 }
 .two-columns_paragraph {
   line-height: 34px;
   font-size: 24px;
-  text-transform: normal;
+  font-weight: normal;
 }
 .two-columns_span-accent {
   line-height: 34px;
   font-size: 24px;
-  text-transform: normal;
+  font-weight: bold;
 }
 
-.digits {}
-.feynman {}
-.kaufman {}
+
+.digits {
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-title {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: 20px;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+}
+.section-subtitle {
+  margin-top: auto;
+  margin-bottom: 60px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.table {
+  display: flex;
+  width: 1100px;
+  margin-bottom: 100px;
+}
+
+.table_cell {
+  text-align: left;
+  width: 250px;
+}
+.table_heading {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+.table_text {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  vertical-align: text-bottom;
+}
+
+.feynman {
+  height: 790px;
+  background-color:var(--color-fondo-principal);
+  position: relative;
+}
+
+.feynman_title {
+  position: relative;
+  width: 775px;
+  margin-left:auto;
+  margin-right:auto;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 0;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+  z-index: 2;
+}
+.feynman_subtitle {
+  width: 775px;
+  margin-top: 70px;
+  margin-left:auto;
+  margin-right:auto;
+  text-align: center;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  z-index: 3;
+  position: relative;
+}
+.feynman_link {
+  display: flex;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  color: var(--color-enlaces-formas);
+  position: absolute;
+  top: 50%;
+  right: 48px;
+}
+.feynman_imge {
+  width: 867px;
+  height: 637px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.kaufman {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-fondo-secundario);
+}
+.section-title_theme_dark {
+  width: 60%;
+  text-align: center;
+  margin: 90px auto 0 auto;
+  z-index: 2;
+  color: var(--color-fondo-principal);
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+}
+.section-subtitle_theme_dark {
+  width: 60%;
+  text-align: center;
+  margin: 20px auto 0 auto;
+  z-index: 1;
+  color: var(--color-fondo-principal);
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.table_theme_dark {
+  margin: 0 auto 90px auto;
+  width: 1100px;
+  z-index: 2;
+}
+
+.table_cell_theme_dark {
+  width: 200px;
+  text-align-last: left;
+  color: var(--color-fondo-principal);
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+.table__heading_theme_dark {
+  color: var(--color-fondo-principal);
+}
+
+.table__text_theme_dark {
+  color: var(--color-fondo-principal);
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.kaufman_triangle {
+  width: 660px;
+  height: 636px;
+  position: absolute;
+  right: -124px;
+  top: 0;
+  z-index: 0;
+}
+
 .footer {}
 
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
