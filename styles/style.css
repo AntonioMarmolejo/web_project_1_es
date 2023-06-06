@@ -4,32 +4,14 @@
   --color-enlaces-formas: #2F80ED;
   --color-negro: #000;
 }
-ul {
+li {
   list-style: none;
+}
+a {
+  text-decoration: none;
 }
 /*Se crean unos bordes para poder ubicar los bloques, por cuetiones de comidida, 
 se quitarán una vez se termine el proyecto */
-
-/*
-div,
-img,
-h1,
-h4,
-p,
-h2,
-ul,
-li,
-tr,
-th,
-td,
-.feynman,
-image{
-  border: 1px dashed red;
-}
-table {
-  border: 1px solid black;
-}
-*/
 
 
 .page {
@@ -48,7 +30,6 @@ table {
   min-height: 600px;
   max-height: 756px;
   /* parameters for the header section */
-  border: 1px dashed red;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -63,9 +44,9 @@ table {
   margin-left: 64px;
   top: 30px;
 }
-.logo_place_header {}
+.logo__place_header {}
 
-.header_title {
+.header__title {
   width: 730px;
   line-height: 96px;
   z-index: 3;
@@ -74,7 +55,7 @@ table {
   font-size: 102px;
   font-weight: bold;
 }
-.header_subtitle {
+.header__subtitle {
   width: 388px;
   left: 67px;
   bottom: 30px;
@@ -88,7 +69,7 @@ table {
   color: var(--color-enlaces-formas);
 }
 
-.header_main-illustration {
+.header__main-illustration {
   display: flex;
   width: 756px;
   height: 608px;
@@ -126,7 +107,7 @@ table {
   display: flex;
 }
 
-.two-columns_brief {
+.two-columns__brief {
   margin-right: 42px;
   line-height: 1.2;
   font-size: 18px;
@@ -134,18 +115,18 @@ table {
   color: var(--color-enlaces-formas);
   width: -webkit-fill-available;
 }
-.two-columns_main-text {
+.two-columns__main-text {
   display: flex;
   flex-direction: column;
   margin-left: 50px;
   justify-content: space-between;
 }
-.two-columns_paragraph {
+.two-columns__paragraph {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
 }
-.two-columns_span-accent {
+.two-columns__span-accent {
   line-height: 34px;
   font-size: 24px;
   font-weight: bold;
@@ -210,7 +191,7 @@ table {
   position: relative;
 }
 
-.feynman_title {
+.feynman__title {
   position: relative;
   width: 775px;
   margin-left:auto;
@@ -223,7 +204,7 @@ table {
   font-weight: bold;
   z-index: 2;
 }
-.feynman_subtitle {
+.feynman__subtitle {
   width: 775px;
   margin-top: 70px;
   margin-left:auto;
@@ -235,7 +216,7 @@ table {
   z-index: 3;
   position: relative;
 }
-.feynman_link {
+.feynman__link {
   display: flex;
   line-height: 51px;
   font-size: 36px;
@@ -245,7 +226,7 @@ table {
   top: 50%;
   right: 48px;
 }
-.feynman_imge {
+.feynman__imge {
   width: 867px;
   height: 637px;
   position: absolute;
@@ -316,7 +297,65 @@ table {
   z-index: 0;
 }
 
-.footer {}
+.footer {
+  min-height: 350px;
+  background-color: var(--color-fondo-secundario);
+  display: flex;
+  position: relative;
+}
+
+.footer__columns {
+  display: flex;
+  margin: 60px auto 40px auto;
+  width: 90%;
+  justify-content: space-between;
+}
+
+.footer__columns_content_copyright {
+  width: 711px;
+  position: relative;
+}
+.footer__columns_content_abaut {
+}
+
+.footer__columns_content_social {}
+
+.logo__place_footer {
+  width: 183px;
+  height: 35px;
+}
+
+.footer__author {
+  color: var(--color-fondo-principal);
+  position: absolute;
+  bottom: 18px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__columns-heading {
+  color: var(--color-fondo-principal);
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer__list {
+  color: var(--color-fondo-principal);
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__columns-link {
+  color: var(--color-fondo-principal);
+}
+
+.footer__social-icons {
+  color: var(--color-fondo-principal);
+  padding-right: 10px;
+}
 
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
 .header__square-pic {
