@@ -1,18 +1,16 @@
 :root {
   --color-fondo-principal: #f2f2f2;
   --color-fondo-secundario: #1f1f1f;
-  --color-enlaces-formas: #2F80ED;
+  --color-enlaces-formas: #2f80ed;
   --color-negro: #000;
 }
+
 li {
   list-style: none;
 }
 a {
   text-decoration: none;
 }
-/*Se crean unos bordes para poder ubicar los bloques, por cuetiones de comidida, 
-se quitarán una vez se termine el proyecto */
-
 
 .page {
   min-width: 1100px;
@@ -22,70 +20,66 @@ se quitarán una vez se termine el proyecto */
   /* here we've set a maximum page width */
   margin: 0 auto;
   /* this ensures that all content is centered on screens wider than 1600px */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
 .header {
-  height: 100vh;
-  min-height: 600px;
-  max-height: 756px;
-  /* parameters for the header section */
+  width: 100%;
+  min-width: 600px;
+  min-height: 756px;
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  background-color: var(--color-fondo-principal);
-  position:relative;
+  align-items: center;
+  position: relative;
 }
 .logo {
   width: 154px;
   height: 31px;
+  z-index: 5;
+}
+.logo__place_header {
   position: absolute;
-  z-index: 3;
-  margin-left: 64px;
+  left: 64px;
   top: 30px;
 }
-.logo__place_header {}
-
 .header__title {
   width: 730px;
+  margin-left: 64px;
   line-height: 96px;
-  z-index: 3;
-  position: absolute;
-  margin-left: 67px;
   font-size: 102px;
   font-weight: bold;
+  z-index: 4;
 }
 .header__subtitle {
   width: 388px;
-  left: 67px;
-  bottom: 30px;
   position: absolute;
-  z-index: 4;
+  left: 64px;
+  bottom: 30px;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
+  z-index: 3;
 }
 .header__link {
   color: var(--color-enlaces-formas);
 }
-
 .header__main-illustration {
-  display: flex;
   width: 756px;
   height: 608px;
-  position:absolute;
-  right: 10px;
-  bottom: 0;
+  position: absolute;
   z-index: 2;
+  bottom: 0;
+  right: 0;
+  top: auto;
+  left: auto;
 }
 .header__square {
   width: 568px;
   height: 568px;
-  top:  64px;
+  background-color: var(--color-enlaces-formas);
+  position: absolute;
+  z-index: 1;
+  top: 64px;
   right: 0;
-  position:absolute;
-  z-index: 0;
-  background-color: #2F80ED;
 }
 
 .content {
@@ -98,7 +92,6 @@ se quitarán una vez se termine el proyecto */
   margin-top: 100px;
   margin-bottom: 100px;
   width: 80%;
-  min-width: 784px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -108,18 +101,18 @@ se quitarán una vez se termine el proyecto */
 }
 
 .two-columns__brief {
-  margin-right: 42px;
+  margin-right: 60px;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
   color: var(--color-enlaces-formas);
-  width: -webkit-fill-available;
+  width: 175px;
 }
 .two-columns__main-text {
   display: flex;
   flex-direction: column;
-  margin-left: 50px;
-  justify-content: space-between;
+  width: 80%;
+  min-width: 784px;
 }
 .two-columns__paragraph {
   line-height: 34px;
@@ -131,7 +124,6 @@ se quitarán una vez se termine el proyecto */
   font-size: 24px;
   font-weight: bold;
 }
-
 
 .digits {
   width: 1100px;
@@ -187,15 +179,17 @@ se quitarán una vez se termine el proyecto */
 
 .feynman {
   height: 790px;
-  background-color:var(--color-fondo-principal);
+  background-color: var(--color-fondo-principal);
   position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 .feynman__title {
   position: relative;
   width: 775px;
-  margin-left:auto;
-  margin-right:auto;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
   margin-top: 100px;
   margin-bottom: 0;
@@ -207,8 +201,8 @@ se quitarán una vez se termine el proyecto */
 .feynman__subtitle {
   width: 775px;
   margin-top: 70px;
-  margin-left:auto;
-  margin-right:auto;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
   line-height: 51px;
   font-size: 36px;
@@ -318,7 +312,8 @@ se quitarán una vez se termine el proyecto */
 .footer__columns_content_abaut {
 }
 
-.footer__columns_content_social {}
+.footer__columns_content_social {
+}
 
 .logo__place_footer {
   width: 183px;
