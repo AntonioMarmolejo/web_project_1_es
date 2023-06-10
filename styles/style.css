@@ -335,6 +335,7 @@ a {
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
+  margin: 0;
 }
 
 .footer__list {
