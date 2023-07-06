@@ -1,0 +1,21 @@
+.video {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-title {
+}
+.section-subtitle {
+}
+
+.video__iframes {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 20px;
+}
+
+.video__iframe {
+  width: 515px;
+  height: 316px;
+}

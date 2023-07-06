@@ -1,0 +1,72 @@
+@keyframes rotacion {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header {
+  width: 100%;
+  min-width: 600px;
+  min-height: 756px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-color: var(--color-fondo-principal);
+  overflow: hidden;
+}
+.logo {
+  width: 154px;
+  height: 31px;
+  z-index: 5;
+}
+.logo__place_header {
+  position: absolute;
+  left: 64px;
+  top: 30px;
+}
+.header__title {
+  width: 730px;
+  position: absolute;
+  left: 64px;
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: bold;
+  z-index: 4;
+}
+.header__subtitle {
+  width: 388px;
+  position: absolute;
+  left: 64px;
+  bottom: 30px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  z-index: 3;
+}
+.header__link {
+  color: var(--color-enlaces-formas);
+}
+.header__main-illustration {
+  width: 756px;
+  height: 608px;
+  position: absolute;
+  z-index: 2;
+  bottom: 0;
+  right: 0;
+  top: auto;
+  left: auto;
+}
+.header__square {
+  width: 568px;
+  height: 568px;
+  background-color: var(--color-enlaces-formas);
+  position: absolute;
+  z-index: 1;
+  top: 64px;
+  right: 0;
+  transform: rotate(-15deg);
+  animation: rotacion 20s infinite;
+}
