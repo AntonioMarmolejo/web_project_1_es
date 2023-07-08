@@ -51,7 +51,8 @@
 }
 
 .header__link:hover {
-  background-color: rgba(5, 14, 14, 0.729);
+  animation: sombreado 2s;
+  border-radius: 15px;
 }
 
 .header__main-illustration {

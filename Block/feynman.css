@@ -40,7 +40,8 @@
   right: 48px;
 }
 .feynman__link:hover {
-  background-color: rgba(5, 14, 14, 0.729);
+  animation: sombreado 2s;
+  border-radius: 15px;
 }
 
 .feynman__imge {

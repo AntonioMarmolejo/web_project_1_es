@@ -19,16 +19,20 @@
 }
 
 .resources-tedED:hover {
-  background-color: rgba(12, 38, 120, 0.6);
+  animation: sombreado 2s;
+  border-radius: 5px;
 }
 .resources-Medium:hover {
-  background-color: rgba(12, 38, 120, 0.6);
+  animation: sombreado 2s;
+  border-radius: 5px;
 }
 .resources-dezeen:hover {
-  background-color: rgba(12, 38, 120, 0.6);
+  animation: sombreado 2s;
+  border-radius: 5px;
 }
 .resources-goodreads:hover {
-  background-color: rgba(12, 38, 120, 0.6);
+  animation: sombreado 2s;
+  border-radius: 5px;
 }
 
 .resoursces__logo {

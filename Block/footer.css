@@ -55,7 +55,7 @@
   color: var(--color-fondo-principal);
 }
 .footer__columns-link:hover {
-  background-color: rgba(24, 67, 167, 0.6);
+  animation: sombreado 2s;
 }
 
 .footer__social-icons {
@@ -64,7 +64,8 @@
 }
 
 .footer__list:hover {
-  background-color: rgba(24, 67, 167, 0.6);
+  animation: sombreado 2s;
+  border-radius: 5px;
 }
 
 /* here we have two examples of selectors in order to remind you how to set styles for elements */

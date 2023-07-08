@@ -1,3 +1,12 @@
+@keyframes sombreado {
+  0% {
+    background-color: rgb(255, 255, 255);
+  }
+  100% {
+    background-color: rgba(5, 14, 14, 0.729);
+  }
+}
+
 .khan {
   margin-top: 100px;
   background-color: #f2f2f2;
@@ -58,9 +67,10 @@
   font-size: 30px;
   font-weight: normal;
   color: var(--color-enlaces-formas);
-  height: 50px;
+  height: 43px;
 }
 
 .khan__buy-link:hover {
-  background-color: rgba(5, 14, 14, 0.729);
+  border-radius: 15px;
+  animation: sombreado 2s;
 }
