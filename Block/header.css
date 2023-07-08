@@ -49,6 +49,11 @@
 .header__link {
   color: var(--color-enlaces-formas);
 }
+
+.header__link:hover {
+  background-color: rgba(5, 14, 14, 0.729);
+}
+
 .header__main-illustration {
   width: 756px;
   height: 608px;

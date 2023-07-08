@@ -3,13 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
     <title>Aprender a aprender</title>
   </head>
   <body>
     <div class="page">
-      <!-- <header class="header">
+      <header class="header">
         <img
           class="logo logo__place_header"
           src="./images/logo_place_header.png"
@@ -19,7 +18,7 @@
         <h2 class="header__subtitle">
           Las técnicas de aprendizaje más eficaces y avanzadas que puedes
           aplicar en tu vida diaria<a
-            class="header__link"
+            class="header__link header__link_hover"
             href="https://www.educalive.com/blog/tecnica-feynman-metodo-para-estudiar-mejor"
           >
             Mas información ↔️</a
@@ -31,9 +30,9 @@
           alt="El se detuvo en la cima de la montaña y mirando hacia atrás se preguntó si había tomado el camino correcto"
         />
         <div class="header__square"></div>
-      </header> -->
+      </header>
       <main class="content">
-        <!-- <section class="description">
+        <section class="description">
           <div class="two-columns">
             <p class="two-columns__brief">
               El principal problema de la educación
@@ -66,9 +65,9 @@
               </p>
             </div>
           </div>
-        </section> -->
+        </section>
 
-        <!-- <section class="techniques">
+        <section class="techniques">
           <h1 class="section-title">Técnicas de aprendizaje</h1>
           <h2 class="section-subtitle">Cinco estrategias por Barbara Oakley</h2>
           <div class="cards">
@@ -131,7 +130,7 @@
               </p>
             </div>
           </div>
-        </section> -->
+        </section>
 
         <section class="video">
           <h1 class="section-title">Charlas TED</h1>
@@ -141,19 +140,67 @@
           <div class="video__iframes">
             <iframe
               class="video__iframe"
-              src="https://www.youtube.com/watch?v=5MgBikgcWnY"
-              frameborder="0"
+              src="https://www.youtube.com/embed/5MgBikgcWnY"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
             ></iframe>
             <iframe
               class="video__iframe"
-              src="https://www.youtube.com/watch?v=arj7oStGLkU"
-              frameborder="0"
+              src="https://www.youtube.com/embed/arj7oStGLkU"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
             ></iframe>
           </div>
         </section>
-        <section></section>
 
-        <!-- <section class="digits">
+        <section class="oakley">
+          <div class="two-columns">
+            <p class="two-columns__brief">La historia de Barbara Oakley</p>
+            <div class="two-columns__main-text">
+              <p class="two-columns__paragraph">
+                Durante la infancia de Barbara, las matemáticas no le surgieron
+                de forma innata. Pensaba que era una persona más orientada a las
+                humanidades, y no precisamente brillante. En vistas a
+                convertirse en lingüista, después de terminar el instituto se
+                alistó en el ejército, donde la mandaron a aprender ruso. Tras
+                varios años de servicio, durante los cuales ascendió al rango de
+                capitán, Barbara dejó el ejército y decidió estudiar ingeniería.
+                Fue en este momento cuando desarrolló su metodología de
+                aprendizaje, porque se vio obligada a reprogramar su cerebro
+                para un tipo de aprendizaje distinto. Resulta que cuando algo no
+                te sale de forma natural, el hecho de tener que trabajar duro
+                para obtener conocimientos, que otras personas pueden captar a
+                la primera, te da un conocimiento más profundo y completo del
+                tema en cuestión.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="feynman">
+          <h2 class="feynman__title">La técnica Feynman</h2>
+          <h3 class="feynman__subtitle">Aprender sin olvidar</h3>
+
+          <a
+            class="feynman__link feynman__link_hover"
+            href="https://www.arataacademy.com/spa/uncategorized/tecnica-feynman-explicada-4-pasos-sencillos-para-aprender-cualquier-cosa/"
+            >Mas ↔️
+          </a>
+          <div>
+            <img
+              class="feynman__imge"
+              src="./images/feynman.png"
+              alt="Una imagen de Richard 
+                  Feynman, físico cuántico de fama mundial. La Técnica Feynman se 
+                  deriva de sus métodos de estudio cuando era estudiante en 
+                  Princeton."
+            />
+          </div>
+        </section>
+
+        <section class="digits">
           <h1 class="section-title">Datos y figuras</h1>
           <p class="section-subtitle">El aprendizaje y el cerebro</p>
           <table class="table">
@@ -245,32 +292,39 @@
               <td></td>
             </tr>
           </table>
-        </section> -->
+        </section>
 
-        <section></section>
-
-        <!-- <section class="feynman">
-          <h2 class="feynman__title">La técnica Feynman</h2>
-          <h3 class="feynman__subtitle">Aprender sin olvidar</h3>
-
-          <a
-            class="feynman__link"
-            href="https://www.arataacademy.com/spa/uncategorized/tecnica-feynman-explicada-4-pasos-sencillos-para-aprender-cualquier-cosa/"
-            >Mas ↔️
-          </a>
-          <div>
-            <img
-              class="feynman__imge"
-              src="./images/feynman.png"
-              alt="Una imagen de Richard 
-                  Feynman, físico cuántico de fama mundial. La Técnica Feynman se 
-                  deriva de sus métodos de estudio cuando era estudiante en 
-                  Princeton."
-            />
+        <section class="khan">
+          <div class="khan__container">
+            <h2 class="khan__author">Salman Khan</h2>
+            <h1 class="khan__title">La escuela del mundo</h1>
+            <p class="khan__quote">
+              La pasión e innovación de Sal Khan están transformando el
+              aprendizaje de millones de estudiantes de todo el mundo. "La
+              escuela del mundo" es una lectura obligatoria para todos aquellos
+              que estén comprometidos a mejorar la educación y quieran que
+              estudiantes de todos los rincones del mundo adquieran las
+              habilidades y conocimientos necesarios para tener éxito académico,
+              profesional y en la vida en general.
+            </p>
+            <h2 class="khan__quote-author">George Lucas</h2>
+            <h2 class="khan__quote-author-subline">Director de cine</h2>
+            <div class="khan__book-container">
+              <img
+                class="khan__book-pic"
+                src="./images/sprint-3-sources-es/khan-book-2.png"
+                alt="Imagen del libro de salma khan"
+              />
+              <a
+                class="khan__buy-link khan__buy-link_hover"
+                href="https://www.casadellibro.com/libro-la-escuela-del-mundo-una-revolucion-educativa/9788434431355/9788505"
+                >Comprar el libro ↔️</a
+              >
+            </div>
           </div>
-        </section> -->
+        </section>
 
-        <!-- <section class="kaufman">
+        <section class="kaufman">
           <h1 class="section-title_theme_dark">
             Diez principios para adquirir habilidades rápidamente
           </h1>
@@ -361,11 +415,46 @@
             alt="Un gran triángulo azul, sobre el que 
         Josh Kaufman reclama la propiedad"
           />
-        </section> -->
+        </section>
 
-        <section></section>
+        <section class="resoursces">
+          <h1 class="section-title">Recursos útiles</h1>
+          <h2 class="section-subtitle">
+            Más materiales sobre técnicas y trucos de aprendizaje
+          </h2>
+          <div class="resoursces__logo-zone">
+            <a class="resources-tedED" href="https://ed.ted.com/">
+              <img
+                class="resoursces__logo"
+                src="./images/sprint-3-sources-es/logo/resources-tedED.png"
+                alt=""
+              />
+            </a>
+            <a class="resources-Medium" href="https://medium.com/">
+              <img
+                class="resoursces__logo"
+                src="./images/sprint-3-sources-es/logo/resources-Medium.png"
+                alt=""
+              />
+            </a>
+            <a class="resources-dezeen" href="https://www.dezeen.com/">
+              <img
+                class="resoursces__logo"
+                src="./images/sprint-3-sources-es/logo/resources-dezeen.png"
+                alt=""
+              />
+            </a>
+            <a class="resources-goodreads" href="https://www.goodreads.com/">
+              <img
+                class="resoursces__logo"
+                src="./images/sprint-3-sources-es/logo/resources-goodreads.png"
+                alt=""
+              />
+            </a>
+          </div>
+        </section>
       </main>
-      <!-- <footer class="footer">
+      <footer class="footer">
         <div class="footer__columns">
           <div class="footer__columns_content_copyright">
             <img
@@ -379,9 +468,9 @@
           </div>
 
           <ol class="footer__columns_content_abaut">
-            <h4 class="footer__columns_content_abaut footer__columns-heading">
+            <li class="footer__columns_content_abaut footer__columns-heading">
               Acerca de Practicum
-            </h4>
+            </li>
             <li style="padding-top: 20px"></li>
             <li class="footer__list">
               <a
@@ -407,12 +496,14 @@
           </ol>
 
           <ol class="footer__columns_content_social">
-            <h4 class="footer__columns_content_social footer__columns-heading">
+            <li class="footer__columns_content_social footer__columns-heading">
               Redes sociales
-            </h4>
+            </li>
             <li style="padding-top: 20px"></li>
             <li>
-              <a class="footer__list" href="https://www.facebook.com/"
+              <a
+                class="footer__list footer__list_hover"
+                href="https://www.facebook.com/"
                 ><img
                   class="footer__social-icons"
                   src="./images/facebook_white.svg"
@@ -422,7 +513,9 @@
               >
             </li>
             <li>
-              <a class="footer__list" href="https://www.instagram.com"
+              <a
+                class="footer__list footer__list_hover"
+                href="https://www.instagram.com"
                 ><img
                   class="footer__social-icons"
                   src="./images/instagram_white.svg"
@@ -433,7 +526,7 @@
             </li>
           </ol>
         </div>
-      </footer> -->
+      </footer>
     </div>
   </body>
 </html>

@@ -1,3 +1,4 @@
+@import url("../Block/normalize.css");
 @import url("../Block/root.css");
 @import url("../Block/page.css");
 @import url("../Block/header.css");
@@ -5,7 +6,10 @@
 @import url("../Block/description.css");
 @import url("../Block/techniques.css");
 @import url("../Block/video.css");
-@import url("../Block/digits.css");
+@import url("../Block/oakley.css");
 @import url("../Block/feynman.css");
+@import url("../Block/digits.css");
+@import url("../Block/khan.css");
 @import url("../Block/kaufman.css");
+@import url("../Block/resoursces.css");
 @import url("../Block/footer.css");

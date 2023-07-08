@@ -2,6 +2,7 @@
   height: 790px;
   background-color: var(--color-fondo-principal);
   position: relative;
+  margin-bottom: 100px;
 }
 
 .feynman__title {
@@ -38,6 +39,10 @@
   top: 50%;
   right: 48px;
 }
+.feynman__link:hover {
+  background-color: rgba(5, 14, 14, 0.729);
+}
+
 .feynman__imge {
   width: 867px;
   height: 637px;

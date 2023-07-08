@@ -54,10 +54,17 @@
 .footer__columns-link {
   color: var(--color-fondo-principal);
 }
+.footer__columns-link:hover {
+  background-color: rgba(24, 67, 167, 0.6);
+}
 
 .footer__social-icons {
   color: var(--color-fondo-principal);
   padding-right: 10px;
+}
+
+.footer__list:hover {
+  background-color: rgba(24, 67, 167, 0.6);
 }
 
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
