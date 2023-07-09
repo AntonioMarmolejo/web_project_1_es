@@ -17,12 +17,12 @@
   background-color: var(--color-fondo-principal);
   overflow: hidden;
 }
-.logo {
+.header__logo {
   width: 154px;
   height: 31px;
   z-index: 5;
 }
-.logo__place_header {
+.header__logo-place_header {
   position: absolute;
   left: 64px;
   top: 30px;
