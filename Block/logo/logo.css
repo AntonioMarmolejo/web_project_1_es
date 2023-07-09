@@ -1,3 +1,9 @@
+.logo {
+  width: 154px;
+  height: 31px;
+  z-index: 5;
+}
+
 .logo__place_header {
   position: absolute;
   left: 64px;

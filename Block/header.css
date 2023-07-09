@@ -17,11 +17,6 @@
   background-color: var(--color-fondo-principal);
   overflow: hidden;
 }
-.logo {
-  width: 154px;
-  height: 31px;
-  z-index: 5;
-}
 
 .header__title {
   width: 730px;
