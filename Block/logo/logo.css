@@ -1,11 +1,13 @@
 .logo {
-  width: 154px;
-  height: 31px;
-  z-index: 5;
+}
+.logo__imagen {
+  width: 100%;
 }
 
-.logo__place_header {
+.logo_place_header {
   position: absolute;
   left: 64px;
   top: 30px;
+  width: 154px;
+  height: 31px;
 }

@@ -1,12 +1,18 @@
 .video {
   display: flex;
   flex-direction: column;
-  margin-top: 100px;
+  transform: translateY(70px);
+  position: relative;
+  z-index: 2;
 }
 
 .section-title {
+  text-align: center;
+  margin: 0 auto;
 }
 .section-subtitle {
+  text-align: center;
+  margin: 0 auto;
 }
 
 .video__iframes {
