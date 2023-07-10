@@ -14,7 +14,7 @@
   flex-direction: column;
   background-color: var(--color-fondo-secundario);
 }
-.section-title_theme_dark {
+.kaufman__section-title_theme_dark {
   width: 65%;
   text-align: center;
   margin: 90px auto 0 auto;
@@ -24,7 +24,7 @@
   font-size: 60px;
   font-weight: bold;
 }
-.section-subtitle_theme_dark {
+.kaufman__section-subtitle_theme_dark {
   width: 60%;
   text-align: center;
   margin: 20px auto 0 auto;
@@ -35,13 +35,13 @@
   font-weight: normal;
 }
 
-.table_theme_dark {
+.kaufman__table_theme_dark {
   margin: 0 auto 90px auto;
   width: 1100px;
   z-index: 2;
 }
 
-.table_cell_theme_dark {
+.kaufman__table_cell_theme_dark {
   width: 200px;
   text-align-last: left;
   color: var(--color-fondo-principal);
@@ -53,7 +53,7 @@
   color: var(--color-fondo-principal);
 }
 
-.table__text_theme_dark {
+.kaufman__table-text_theme_dark {
   color: var(--color-fondo-principal);
   line-height: 1.2;
   font-size: 18px;
