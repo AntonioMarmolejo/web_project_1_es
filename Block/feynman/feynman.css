@@ -1,0 +1,6 @@
+.feynman {
+  height: 790px;
+  background-color: var(--color-fondo-principal);
+  position: relative;
+  margin-bottom: 100px;
+}

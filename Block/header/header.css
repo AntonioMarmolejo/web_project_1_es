@@ -1,0 +1,10 @@
+.header {
+  width: 100%;
+  min-width: 600px;
+  min-height: 756px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-color: var(--color-fondo-principal);
+  overflow: hidden;
+}

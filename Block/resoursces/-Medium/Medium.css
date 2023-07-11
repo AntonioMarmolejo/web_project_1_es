@@ -1,0 +1,4 @@
+.resources-Medium:hover {
+  animation: sombreado 2s;
+  border-radius: 5px;
+}

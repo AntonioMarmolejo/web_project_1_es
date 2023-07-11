@@ -1,0 +1,20 @@
+@keyframes rotacion {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header__square {
+  width: 568px;
+  height: 568px;
+  background-color: var(--color-enlaces-formas);
+  position: absolute;
+  z-index: 1;
+  top: 64px;
+  right: 0;
+  transform: rotate(-15deg);
+  animation: rotacion 20s infinite;
+}

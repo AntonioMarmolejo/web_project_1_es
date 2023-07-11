@@ -1,0 +1,8 @@
+.header__link {
+  color: var(--color-enlaces-formas);
+}
+
+.header__link:hover {
+  animation: sombreado 2s;
+  border-radius: 15px;
+}

@@ -1,0 +1,6 @@
+.footer__columns-link {
+  color: var(--color-fondo-principal);
+}
+.footer__columns-link:hover {
+  animation: sombreado 2s;
+}

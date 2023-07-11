@@ -1,0 +1,12 @@
+@keyframes sombreado {
+  0% {
+    background-color: rgb(255, 255, 255);
+  }
+  100% {
+    background-color: rgba(5, 14, 14, 0.729);
+  }
+}
+
+.khan {
+  background-color: #f2f2f2;
+}

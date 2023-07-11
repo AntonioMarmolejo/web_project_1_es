@@ -1,0 +1,7 @@
+.video {
+  display: flex;
+  flex-direction: column;
+  transform: translateY(70px);
+  position: relative;
+  z-index: 2;
+}
