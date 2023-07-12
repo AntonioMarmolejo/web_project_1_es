@@ -8,9 +8,9 @@
 }
 
 .kaufman {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: var(--color-fondo-secundario);
   position: relative;
   overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  background-color: var(--color-fondo-secundario);
 }

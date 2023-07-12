@@ -1,8 +1,8 @@
-.kaufman_triangle {
+.kaufman__triangulo {
   width: 660px;
   height: 636px;
   position: absolute;
-  right: -124px;
+  right: -120px;
   top: 0;
   z-index: 0;
   animation: rotacion 20s infinite;

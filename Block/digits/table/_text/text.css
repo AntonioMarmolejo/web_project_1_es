@@ -1,6 +1,7 @@
-.table_text {
+.table__text {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
   vertical-align: text-bottom;
+  margin-bottom: 0;
 }
