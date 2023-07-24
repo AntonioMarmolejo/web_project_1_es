@@ -1,4 +1,4 @@
-.section-subtitles {
+.section-subtitle {
   position: relative;
   width: 60%;
   margin-left: auto;
@@ -8,5 +8,4 @@
   font-size: 24px;
   font-weight: normal;
   margin-bottom: 0;
-  z-index: 3;
 }

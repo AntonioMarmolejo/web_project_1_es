@@ -75,6 +75,8 @@
 @import url("../Block/footer/footer.css");
 @import url("../Block/footer/__columns/columns.css");
 @import url("../Block/footer/__columns/-content/content.css");
+@import url("../Block/footer/__columns/-content/content-abaut.css");
+@import url("../Block/footer/__columns/-content/content-social.css");
 @import url("../Block/footer/logo/__place/pace_footer.css");
 @import url("../Block/footer/__author/author.css");
 @import url("../Block/footer/__columns/-heading/heading.css");

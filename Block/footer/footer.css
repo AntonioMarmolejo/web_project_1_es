@@ -2,5 +2,4 @@
   min-height: 350px;
   background-color: var(--color-fondo-secundario);
   display: flex;
-  position: relative;
 }

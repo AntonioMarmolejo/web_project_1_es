@@ -1,9 +1,7 @@
 .footer__columns_content_copyright {
   width: 711px;
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  justify-content: space-between;
 }
-/*.footer__columns_content_abaut {
-}
-
-.footer__columns_content_social {
-}*/
